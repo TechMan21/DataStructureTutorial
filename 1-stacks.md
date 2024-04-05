@@ -124,3 +124,5 @@ Suggested Test Cases
 Feel free to examine the example code to help you in your task.
 
 **Once you have completed the task you can view the [solution](4-StacksSolution.md) to check for correctness.**
+
+Back to [Welcome Page](0-welcome.md)

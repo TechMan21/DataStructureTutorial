@@ -46,3 +46,6 @@ editor.display()  # Output: The quick brown fox leaps over the sleeping cat.
 editor.reverse_last_operations(3)
 editor.display()  # Output: The quick brown fox jumps over the lazy dog.
 ```
+
+Back to [Stacks](1-stacks.md) page
+Back to [Welcome Page](0-welcome.md)
