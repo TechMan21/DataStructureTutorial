@@ -30,7 +30,7 @@ A binary search tree (BST) is a type of binary tree with an additional property:
 
 
 - ### **Balanced Binary Search Trees**
-   A balanced BST, also known as a height-balanced BST or simply a balanced tree, is a binary search tree in which the height of the left and right subtrees of any node differs by at most one. Examples of balanced BSTs include AVL trees, red-black trees, and B-trees. These balanced tree structures ensure that operations like search, insertion, and deletion have optimal time complexity, typically O(log n), where n is the number of nodes in the tree.
+   A balanced BST, also known as a height-balanced BST or simply a balanced tree, is a binary search tree in which the height of the left and right subtrees of any node differs by at most one (or major difference). Examples of balanced BSTs include AVL trees, red-black trees, and B-trees. These balanced tree structures ensure that operations like search, insertion, and deletion have optimal time complexity, typically O(log n), where n is the number of nodes in the tree.
 
    Balanced BSTs are crucial for maintaining efficient performance in applications that involve frequent data manipulation operations, as they prevent the tree from becoming overly skewed and maintain a more uniform distribution of nodes.
 

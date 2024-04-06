@@ -175,3 +175,9 @@ print("Inorder Traversal after deletion:", bst.inorder_traversal())
 
 ```
 NOTE: Both solutions, with or without the optional exercises, will have the same output if you delete the same numbers. The optional exercises effect how the internal BST functions. 
+
+Back to [Trees Information](3-trees.md) page
+
+OR
+
+Back to [Welcome Page](0-welcome.md)

@@ -5,8 +5,11 @@ Hello and welcome to a tutorial on Python fundamentals with data structures! The
 - [Stacks](1-stacks.md)
 - [Linked Lists](2-linkedList.md)
 - [Trees](3-trees.md)
+- [Conclusion](7-conclusion.md)
 
-Each of these topics has a module via the links above. Every module will go over the basics, provide understanding, connect it with the Python language, prvide an example, and give you a Try-It-Out exercise (after your own attempt to the exercise you can view a provided solution).
+Each of these topics has a module via the links above. Every module will go over the basics, provide understanding, connect it with the Python language, provide an example, and give you a Try-It-Out exercise (after your own attempt to the exercise you can view a provided solution).
+
+
 
 **Contact Information**
 
