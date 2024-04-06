@@ -1,10 +1,7 @@
 # **Linked Lists**
+**What is a Linked List?**
 
-A linked list is a fundamental data structure in computer science used to store a sequence of elements.
-
-**What is a Linked List?** 
-
- Unlike arrays, where elements are stored in contiguous memory locations, a linked list consists of nodes, each containing a data element and a reference (or pointer) to the next node in the sequence. 
+A linked list is a fundamental data structure in computer science used to store a sequence of elements. Unlike arrays, where elements are stored in contiguous memory locations, a linked list consists of nodes, each containing a data element and a reference (or pointer) to the next node in the sequence. 
 
  ![ Image showing a new link being added to a Linked List](https://github.com/TechMan21/DataStructureTutorial/blob/8ad7738f32efb7c000709944bb2f8f7f4b78a741/C_language_linked_list.png "Link added- LinkedList Example")
 
@@ -137,6 +134,12 @@ Accessing an element in a linked list requires traversing the list from the head
 **Traversal Techniques:**
 - Traversal can be implemented using iterative or recursive techniques, depending on the preferences and requirements of the implementation. Iterative traversal involves using a loop to move through the list, while recursive traversal involves calling a function recursively to traverse the list.
 
+## Big O Notation
+- Insertion and Deletion: Inserting or deleting an element at the beginning or end of a linked list typically has a constant time complexity of O(1) if the operation involves only updating pointers. However, if the operation requires traversing the list to find the insertion or deletion point, it may have a linear time complexity of O(n), where n is the number of elements in the list.
+
+- Access (or Search): Searching for a specific element within a linked list typically has a linear time complexity of O(n), as it may require traversing the list from the beginning to find the desired element. This is because linked lists do not support direct random access to elements.
+
+- Traversal: Iterating over all elements in a linked list (traversal) has a linear time complexity of O(n), as it requires visiting each element in the list exactly once.
 
 ## **Example Code**
 Here's an example code of a singly linked list in Python:

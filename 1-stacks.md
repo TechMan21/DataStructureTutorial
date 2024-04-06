@@ -1,4 +1,4 @@
-# Stacks
+# **Stacks**
 
 Stacks are used all the time, especially when using documents! Without the programming structure of stacks you wouldnt be able to undo a mistake, put back accidentlly deleted information, restore a photo or document back to its original state after a change, and so on.
 
@@ -9,7 +9,7 @@ A Stack is a linear data structure that operates on a Last In, First Out princip
 
  ![ IMage showing Layers seperated with highlighted top layer](https://github.com/TechMan21/DataStructureTutorial/blob/c7608369f26e717da142435bfe4e9dde277e52ff/LIFO-CSE212.png "Layers colored- Stack Example")
 
-## Undo Option & Stacking
+## **Undo Option & Stacking**
 
 This data structure gives us the ability to "Undo" on copmuter programs. It is a common functionality on software applications like grpahic design tools, text editors, word processors, and more. A user can manage state changes or actions which the user themselves have performed.
 
@@ -20,7 +20,7 @@ Software applications will save the users action (like type a word) and make it 
 
 Most applications also have a "Redo" button (or keyboard shortcut of Ctrl + Y). When Undo is performed, the action/object is not thrown away but added to another stack. If a user chooses Redo, then the application pops the action off the the redo stack and applies it back to the record/document and added to the undo stack. 
 
-## Software & Function
+## **Software & Function**
 
 In Software the call stack is a stack data structure used by programming languages to keep track of active subroutines (functions or methods) in a program. When a function is called, its return address and sometimes its parameters are "pushed" onto the call stack. When the function returns, its frame is "popped" from the stack. This ensures that execution returns to the correct location and that the function's local variables are managed correctly.
 In coding, a debugger uses the call stack.
@@ -28,9 +28,12 @@ In coding, a debugger uses the call stack.
 ![Image showing Call Stack Example from VS Code Screenshot](https://github.com/TechMan21/DataStructureTutorial/blob/c7608369f26e717da142435bfe4e9dde277e52ff/PythonCallStackExample.png "Call Stack Example from VS Code")
 
 
-In application, like web-browsers, stacking helps with page navigation (back and forward arrow). It saves a history of web pages as each new link or page is opened. 
+In application, like web-browsers, stacking helps with page navigation (back and forward arrow). It saves a history of web pages as each new link or page is opened.
 
-## Example Code
+## Big O Notation
+In Big O notation, stack operations typically exhibit efficient time complexities. Adding an element to the top of the stack (push operation) and removing the top element (pop operation) both have a constant time complexity of O(1). Similarly, retrieving the top element without removing it (peek operation) also has a constant time complexity. However, searching for a specific element within the stack (search operation) has a linear time complexity of O(n), where n is the number of elements in the stack. Despite this, stacks remain suitable for various applications due to their efficient last-in-first-out (LIFO) data storage and retrieval.
+
+## **Example Code**
 Here's an example code of the redo and undo function:
 
 ```python
@@ -97,8 +100,10 @@ print(editor.text)  # Output should be: Hello,
 editor.redo()
 print(editor.text)  # Output should be: Hello, world!
 ```
+In Python language we use .append() to add to the stack, .pop() to take off the last/top object, and begin a stack using deque().
 
-## Try-It-Out
+
+## **Try-It-Out**
 
 Your text editor application, built around a stack structure for undo and redo functionality, has become quite popular. Users love the simplicity and effectiveness of the undo and redo features. However, several users have requested a feature that allows them to reverse the effects of the last N operations in one go, where N can be any number. This feature should be able to reverse a combination of text insertions, deletions, and even previous undos and redos.
 
@@ -123,6 +128,6 @@ Suggested Test Cases
 
 Feel free to examine the example code to help you in your task.
 
-**Once you have completed the task you can view the [solution](4-StacksSolution.md) to check for correctness.**
+**Once you have completed the task you can view the [solution](4-StacksSolution.md) to check for accuracy and completeness.**
 
 Back to [Welcome Page](0-welcome.md)
