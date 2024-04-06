@@ -23,7 +23,7 @@ A binary search tree (BST) is a type of binary tree with an additional property:
 
    ![Image showing Unbalanced BST](https://github.com/TechMan21/DataStructureTutorial/blob/70fb22606883b0c9369970563621231d7b075701/UnbalancedBSTEx.png "Unbalanced BST")
    
-   ![Image showing BYUI Unbalanced BST #2](https://github.com/TechMan21/DataStructureTutorial/blob/70fb22606883b0c9369970563621231d7b075701/BinarySearchTree.png "BYUI Unbalanced BST Example")
+   ![Image showing BYUI Unbalanced BST #2](https://github.com/TechMan21/DataStructureTutorial/blob/39cc9964bcbb17e38f59a6202b8674545dbac090/BYUI-unbalanced_bst.jpeg "BYUI Unbalanced BST Example")
 
    <sup>Image is sourced from BYU-Idaho CSE212: W09 Reading</sup>
 
