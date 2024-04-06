@@ -34,7 +34,7 @@ A linked list is a fundamental data structure in computer science used to store 
 - Memory Overhead: Each node in a linked list requires extra memory for storing the reference to the next (and possibly previous) node, in addition to the data itself.
 
 
-## **Insertion Process**
+## **The Insertion Process**
    Inserting into a linked list differs from a dynamic list, as it requires a multi-step process rather than a single command like `.append()`. There are distinct procedures for inserting at the beginning, end, or middle of the list, each involving specific steps to adjust node links.
 
 1. **Insertion at the Beginning:**
@@ -60,7 +60,7 @@ A linked list is a fundamental data structure in computer science used to store 
 
 
 
-## **Removal Process:**
+## **The Removal Process:**
    Removing an element from a linked list requires updating the links between nodes to exclude the element to be removed. Similar to insertion, there are distinct procedures for removing from the beginning, end, or middle of the list, each involving specific steps to adjust node links.
 
 1. **Removal from the Beginning:**
