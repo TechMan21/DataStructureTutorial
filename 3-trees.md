@@ -15,17 +15,18 @@ A binary tree is a type of tree in which each node has at most two children, ref
 
 A binary search tree (BST) is a type of binary tree with an additional property: for any node in the tree, all nodes in its left subtree have values less than its value, and all nodes in its right subtree have values greater than its value. This property allows for efficient searching, insertion, and deletion operations.
 
-  ![Image showing Binary Search Tree](https://github.com/TechMan21/DataStructureTutorial/blob/70fb22606883b0c9369970563621231d7b075701/BinarySearchTree.png "Binary Search Tree Example")
+  ![Image showing Binary Search Tree](https://github.com/TechMan21/DataStructureTutorial/blob/70fb22606883b0c9369970563621231d7b075701/BinarySearchTree.png "Binary Search Tree Example" )
   
 
 - ### **Unbalanced Balanced Binary Search Trees**
    An unbalanced BST is a binary search tree in which the tree's height is not optimized, leading to inefficient operations. In the worst case, an unbalanced BST can degrade to a linear data structure, resulting in O(n) time complexity for operations like search, insertion, and deletion.
 
    ![Image showing Unbalanced BST](https://github.com/TechMan21/DataStructureTutorial/blob/70fb22606883b0c9369970563621231d7b075701/UnbalancedBSTEx.png "Unbalanced BST")
-   
-   ![Image showing BYUI Unbalanced BST #2](https://github.com/TechMan21/DataStructureTutorial/blob/39cc9964bcbb17e38f59a6202b8674545dbac090/BYUI-unbalanced_bst.jpeg "BYUI Unbalanced BST Example")
+   <img src="https://github.com/TechMan21/DataStructureTutorial/blob/39cc9964bcbb17e38f59a6202b8674545dbac090/BYUI-unbalanced_bst.jpeg" alt="BYUI BST" width="300" height="300"/>
 
-   <sup>Image is sourced from BYU-Idaho CSE212: W09 Reading</sup>
+   <sup>Right Image sourced from BYU-Idaho CSE212: W09 Reading</sup>
+
+   
 
 
 - ### **Balanced Binary Search Trees**
